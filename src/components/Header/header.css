@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+	background-color: white;
+}
+
+#logo{
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	color: #FF69B4;
+	margin: 5px;
+}
+
+#headerMenu{
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: flex;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+.cursor{
+	cursor: pointer;
+}

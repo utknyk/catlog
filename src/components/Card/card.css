@@ -1,0 +1,10 @@
+.card{
+	width: 15rem;
+	text-align: center;
+	height: 364px;
+}
+
+.addBtn{
+	background-color: #FF69B4;
+	color: white;
+}
